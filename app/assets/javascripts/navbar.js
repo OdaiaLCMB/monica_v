@@ -1,4 +1,5 @@
 $(document).ready(function() {
+//Smooth Scroll
   $(function() {
   var nav = $("#navbar").height();
   $('a[href*="#"]:not([href="#"])').click(function() {
