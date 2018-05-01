@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: 'Open-sans', sans-serif;
+  font-family: $body-font;
 }
 
 /* Logo */
@@ -35,11 +35,15 @@
   font-size: 14px;
 }
 .navbar-mv-link:hover {
-  color: #73577D;
+  color: $violet;
   text-decoration: none;
 }
 
 /* Dropdown menu */
+.fa-bars {
+  color: $dark-violet;
+}
+
 .navbar-mv-dropdown-menu {
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
