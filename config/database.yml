@@ -1,0 +1,27 @@
+#   Ensure the PostgreSql gem is defined in your Gemfile
+#   gem 'pg'
+#
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: monica_v_development
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test:
+  <<: *default
+  database: monica_v_test
+
+production:
+  <<: *default
+  database: monica_v_development_production
+  username: monica_v_test
+  password: <%= ENV['MONICA_V_DATABASE_PASSWORD'] %>
