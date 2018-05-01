@@ -30,4 +30,43 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  esthetician: 'home esthetician'
+  accroche: 'your beauty, your place, your time'
+  number: '(+33)7.81.78.34.65'
+  forfait: 'package'
+  care: 'services'
+  intervention:
+    title: 'intervention area'
+    text: 'Because it's important to take care of us and we don't always have the time, I come to your place in the following districts'
+  waxing:
+    title: 'waxing'
+    j: 'full leg'
+    dj: 'half leg'
+    m: 'basic bikini'
+    mi: 'deep Bikini'
+    a: 'underarm'
+    b: 'arm'
+    l: 'lip'
+    s: 'eyebrows'
+    v: 'facial'
+  nails:
+    hand: 'manicure'
+    foot: 'pedicure'
+    as: 'essential'
+    pv: 'pose verni'
+    f: 'french manicure'
+    sm: 'Gel Manicure'
+    fsm: 'gel french Manicure'
+    and: 'and'
+    without: 'without'
+    vp: 'verni permanent'
+    text: 'hands and feet's full care'
+  massage:
+    title: 'massage'
+    oil: 'with argan oil'
+    text: 'let yourself be tempted by a massage for 1 hour'
+    body: 'the whole body'
+  footer:
+    social: 'follow me on social networks'
+    rights: 'all rights reserved'
+
